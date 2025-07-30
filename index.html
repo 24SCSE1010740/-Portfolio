@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4 sticky top-0 z-10">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">Adarsh Verma</h1>
+        <ul class="flex gap-4">
+          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+          <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+      <h2 class="text-4xl font-bold">Hi, I'm Adarsh</h2>
+      <p class="mt-4 text-xl">A passionate Web Developer & Designer</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 max-w-5xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Projects</h3>
+      <div class="grid md:grid-cols-3 gap-8 px-4">
+        <div class="bg-white p-4 shadow rounded-lg">
+          <h4 class="font-bold text-xl">Portfolio Website</h4>
+          <p class="text-sm mt-2">A personal website built using Tailwind CSS.</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded-lg">
+          <h4 class="font-bold text-xl">Task Manager App</h4>
+          <p class="text-sm mt-2">A full-stack to-do list app with Node.js and MongoDB.</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded-lg">
+          <h4 class="font-bold text-xl">E-commerce UI</h4>
+          <p class="text-sm mt-2">Frontend for an online store using React and Tailwind.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-200">
+      <div class="max-w-5xl mx-auto text-center">
+        <h3 class="text-3xl font-semibold mb-8">Skills</h3>
+        <div class="flex flex-wrap justify-center gap-4">
+          <span class="bg-white px-4 py-2 rounded shadow">HTML</span>
+          <span class="bg-white px-4 py-2 rounded shadow">CSS</span>
+          <span class="bg-white px-4 py-2 rounded shadow">JavaScript</span>
+          <span class="bg-white px-4 py-2 rounded shadow">React</span>
+          <span class="bg-white px-4 py-2 rounded shadow">Node.js</span>
+          <span class="bg-white px-4 py-2 rounded shadow">MongoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Contact Me</h3>
+      <p class="mb-6">Have a project or want to collaborate? Let's connect.</p>
+      <a href="mailto:your.email@example.com" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Email Me</a>
+    </section>
+
+    <footer class="text-center py-4 text-sm bg-white shadow mt-8">
+      &copy; 2025 Adarsh Verma. All rights reserved.
+    </footer>
+
+  </body>
+</html>
